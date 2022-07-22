@@ -1,0 +1,143 @@
+.ContactButtonsContainer {
+    position: relative;
+    width: 84%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 10%;
+}
+
+#Phone, #Resume {
+    height: 45px;
+    width: 80%;
+    border-radius: 15px;
+    color: #058ed9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+#Email {
+    height: 45px;
+    width: 100%;
+    border-radius: 15px;
+    color: #058ed9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+#EmailForm {
+    width: 80%;
+}
+
+#Email:focus, #Phone:focus, #Resume:focus {
+    border-style: none;
+}
+
+#Email:active, #Phone:active, #Resume:active {
+    background-color: #058ed9;
+    color: white;
+}
+
+#Email:hover, #Phone:hover, #Resume:hover {
+    animation: shake 1s;
+}
+
+@keyframes shake {
+    0% { transform: translate(0px, 0px) rotate(0deg); }
+    30% { transform: translate(1px, 1px) rotate(1deg); }
+    60% { transform: translate(1px, 1px) rotate(-1deg); }
+    100% { transform: translate(0px, 0px) rotate(0deg); }
+  }
+
+@media only screen and (min-width: 800px) {
+    .ContactButtonsContainer {
+        position: relative;
+        width: 84%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+    
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 0%;
+    }
+    
+    #Phone, #Resume {
+        height: 50px;
+        width: 80%;
+        border-radius: 15px;
+        color: #058ed9;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+        border-style: none;
+        cursor: pointer;
+    }
+
+    #Email {
+        height: 45px;
+        width: 100%;
+        border-radius: 15px;
+        color: #058ed9;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+        border-style: none;
+        cursor: pointer;
+    }
+    
+    #EmailForm {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .ContactButtonsContainer {
+        position: relative;
+        width: 84%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+    
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 0%;
+    }
+    
+    #Phone, #Resume {
+        height: 70px;
+        width: 80%;
+        border-radius: 15px;
+        color: #058ed9;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+        border-style: none;
+        cursor: pointer;
+    }
+
+    #Email {
+        height: 70px;
+        width: 100%;
+        border-radius: 15px;
+        color: #058ed9;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+        border-style: none;
+        cursor: pointer;
+    }
+    
+    #EmailForm {
+        width: 80%;
+    }
+}

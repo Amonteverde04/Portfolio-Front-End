@@ -1,0 +1,150 @@
+.AboutMeContainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: 70%;
+    width: 92%;
+}
+
+.Pic {
+    position: relative;
+    right: -3%;
+    bottom: 24%;
+    height: 20rem;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.BioDesc {
+    float: left;
+    height: 50%;
+    width: 55%;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.Prof {
+    position: absolute;
+    width: 30%;
+    height: 15%;
+    left: 13%;
+    top: 78%;
+    text-align: center;
+}
+
+.ProfSVG {
+    width: 30px;
+    height: 30px;
+}
+
+@media only screen and (min-width:800px) {
+    .Pic {
+        position: relative;
+        right: 0;
+        height: 23rem;
+        width: 40%;
+        border-radius: 5px;
+    }
+
+    .Prof {
+        position: absolute;
+        width: 30%;
+        height: 15%;
+        left: 13%;
+        top: 80%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:810px) {
+    .Pic {
+        position: relative;
+        right: 0;
+        height: 19rem;
+        width: 40%;
+        border-radius: 5px;
+    }
+
+    .Prof {
+        position: absolute;
+        width: 30%;
+        height: 15%;
+        left: 13%;
+        top: 75%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .AboutMeContainer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        height: 65%;
+        width: 92%;
+    }
+
+    .Pic {
+        position: absolute;
+        right: -1%;
+        bottom: -2%;
+        height: 35rem;
+        max-width: 35%;
+        border-radius: 5px;
+    }
+
+    .Prof {
+        position: absolute;
+        width: 30%;
+        height: 15%;
+        left: 13%;
+        top: 90%;
+        text-align: center;
+    }
+
+    .BioDesc {
+        float: left;
+        height: 80%;
+        width: 55%;
+        padding: 5px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width:1079px) {
+    .AboutMeContainer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        height: 65%;
+        width: 92%;
+    }
+
+    .Pic {
+        position: absolute;
+        height: 23rem;
+        bottom: 6%;
+        max-width: 50%;
+        border-radius: 5px;
+    }
+
+    .Prof {
+        position: absolute;
+        width: 30%;
+        height: 15%;
+        left: 13%;
+        top: 75%;
+        text-align: center;
+    }
+
+    .BioDesc {
+        float: left;
+        height: 80%;
+        width: 55%;
+        padding: 5px;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,255 @@
+.App-header {
+  position: fixed;
+  overflow: auto;
+  background-color: rgba(5, 142, 217, 1);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+  min-height: 5vh;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+  font-size: 15px;
+}
+
+#headerLink {
+  color: white;
+  font-size: 15px;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.SplashScreen {
+  position: relative;
+  border-bottom: solid 7px rgba(128, 128, 128, .07);
+  min-height: 80vh;
+  color: #058ED9;
+  overflow: auto;
+  overflow: hidden;
+  background-image: url('./Assets/SVG\ Background\ Phone.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  animation: splashZoom 1s;
+}
+
+@keyframes splashZoom {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.AboutMe {
+  position: relative;
+  border-bottom: solid 7px rgba(128, 128, 128, .07);
+  min-height: 60vh;
+  overflow: auto;
+}
+
+.Projects {
+  position: relative;
+  border-bottom: solid 7px rgba(128, 128, 128, .07);
+  min-height: 60vh;
+  overflow: auto;
+}
+
+.GetInContact {
+  position: relative;
+  border-bottom: solid 7px rgba(128, 128, 128, .07);
+  min-height: 60vh;
+  overflow: auto;
+}
+
+.Resume {
+  background-color: #058ED9;
+  position: relative;
+  min-height: 80vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ResumePic {
+  position: relative;
+}
+
+.Hidden {
+  display: none;
+}
+
+Footer {
+  position: relative;
+  overflow: hidden;
+  border-bottom: solid 7px rgba(128, 128, 128, .07);
+  background: rgb(0,0,0,0);
+  background: linear-gradient(322deg, rgba(0,0,0,.24) .5%, rgba(255,255,255,0) 100%);
+  min-height: 2vh;
+  
+  text-align: center;
+  font-size: 15px;
+  color: #058ED9;
+}
+
+@media only screen and (min-width:1080px) {
+  .SplashScreen {
+    position: relative;
+    border-bottom: solid 7px rgba(128, 128, 128, .07);
+    min-height: 90vh;
+    color: #058ED9;
+    overflow: auto;
+    overflow: hidden;
+    background-image: url('./Assets/SVG\ Background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: splashZoom 1s;
+}
+
+  @keyframes splashZoom {
+    0% {
+      opacity: 0;
+      background-size: 0;
+    }
+    100% {
+      opacity: 1;
+      background-size: 100%;
+    }
+  }
+  
+  .AboutMe {
+    position: relative;
+    border-bottom: solid 7px rgba(128, 128, 128, .07);
+    min-height: 80vh;
+    overflow: auto;
+  }
+  
+  .Projects {
+    position: relative;
+    border-bottom: solid 7px rgba(128, 128, 128, .07);
+    min-height: 80vh;
+    overflow: auto;
+  }
+  
+  .GetInContact {
+    position: relative;
+    border-bottom: solid 7px rgba(128, 128, 128, .07);
+    min-height: 80vh;
+    overflow: auto;
+  }
+  
+  .Resume {
+    background-color: #058ED9;
+    position: relative;
+    min-height: 80vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ResumePic {
+    position: relative;
+  }
+  
+  .Hidden {
+    display: none;
+  }
+  
+  Footer {
+    position: relative;
+    overflow: hidden;
+    border-bottom: solid 7px rgba(128, 128, 128, .07);
+    background: rgb(0,0,0,0);
+    background: linear-gradient(322deg, rgba(0,0,0,.24) .5%, rgba(255,255,255,0) 100%);
+    min-height: 2vh;
+    
+    text-align: center;
+    font-size: 15px;
+    color: #058ED9;
+  }
+}
+
+@media only screen and (min-width:800px) and (max-width:1079px) {
+  .SplashScreen {
+    position: relative;
+    border-bottom: solid 7px rgba(128, 128, 128, .07);
+    min-height: 90vh;
+    color: #058ED9;
+    overflow: auto;
+    overflow: hidden;
+    background-image: url('./Assets/SVG\ Background\ IPAD.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: splashZoom 1s;
+}
+
+  @keyframes splashZoom {
+    0% {
+      opacity: 0;
+      background-size: 0%;
+    }
+    100% {
+      opacity: 1;
+      background-size: 100%;
+  }
+  }
+  
+  .AboutMe {
+    position: relative;
+    border-bottom: solid 7px rgba(128, 128, 128, .07);
+    min-height: 80vh;
+    overflow: auto;
+  }
+  
+  .Projects {
+    position: relative;
+    border-bottom: solid 7px rgba(128, 128, 128, .07);
+    min-height: 80vh;
+    overflow: auto;
+  }
+  
+  .GetInContact {
+    position: relative;
+    border-bottom: solid 7px rgba(128, 128, 128, .07);
+    min-height: 80vh;
+    overflow: auto;
+  }
+  
+  .Resume {
+    background-color: #058ED9;
+    position: relative;
+    min-height: 80vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ResumePic {
+    position: relative;
+  }
+  
+  .Hidden {
+    display: none;
+  }
+  
+  Footer {
+    position: relative;
+    overflow: hidden;
+    border-bottom: solid 7px rgba(128, 128, 128, .07);
+    background: rgb(0,0,0,0);
+    background: linear-gradient(322deg, rgba(0,0,0,.24) .5%, rgba(255,255,255,0) 100%);
+    min-height: 2vh;
+    
+    text-align: center;
+    font-size: 15px;
+    color: #058ED9;
+  }
+}

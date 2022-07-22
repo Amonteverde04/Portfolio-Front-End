@@ -1,0 +1,127 @@
+.CardContainer {
+    position: relative;
+    border: solid 2px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5.5rem;
+    width: 80vw;
+    height: 40vh;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+}
+
+#Silver {
+    background: rgb(0,0,0,0);
+    background: linear-gradient(322deg, rgba(0,0,0,.24) .5%, rgba(255,255,255,0) 100%);
+}
+
+#Blue {
+    background: rgb(5,142,217);
+    background: linear-gradient(322deg, rgba(5,142,217,1) 60%, rgba(255,255,255,1) 100%);
+}
+
+@media only screen and (max-height: 896px) {
+    .CardContainer {
+        position: relative;
+        border: solid 2px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3.9rem;
+        width: 90vw;
+        height: 45vh;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    }
+}
+
+@media only screen and (max-height: 926px) {
+    .CardContainer {
+        position: relative;
+        border: solid 2px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3.9rem;
+        width: 90vw;
+        height: 45vh;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    }
+}
+
+@media only screen and (max-height: 844px) {
+    .CardContainer {
+        position: relative;
+        border: solid 2px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3.8rem;
+        width: 90vw;
+        height: 45vh;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    }
+}
+
+@media only screen and (max-height: 812px) {
+    .CardContainer {
+        position: relative;
+        border: solid 2px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3.5rem;
+        width: 90vw;
+        height: 45vh;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    }
+}
+
+@media only screen and (max-height: 667px) {
+    .CardContainer {
+        position: relative;
+        border: solid 2px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+        width: 90vw;
+        height: 50vh;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .CardContainer {
+        position: relative;
+        border: solid 2px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4.8rem;
+        width: 80vw;
+        height: 45vh;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .CardContainer {
+        position: relative;
+        border: solid 2px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4.3rem;
+        width: 80vw;
+        height: 65vh;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    }
+}

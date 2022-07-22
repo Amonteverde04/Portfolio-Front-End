@@ -1,0 +1,109 @@
+.ProjCardGrid {
+    width: 84%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 5%;
+
+    overflow: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ProjectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    height: 35%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    cursor: pointer;
+}
+
+.ProjCardImg {
+    width: 101%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+@media only screen and (max-height: 844px) {
+    .ProjCardGrid {
+        width: 84%;
+        height: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 5%;
+        overflow: auto;
+    }
+    
+    .ProjectCard {
+        width: 48%;
+        height: 30%;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-height: 667px) {
+    .ProjCardGrid {
+        width: 84%;
+        height: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+    
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 5%;
+    
+        overflow: auto;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .ProjCardGrid {
+        width: 100%;
+        height: 55%;
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: auto;
+    }
+    
+    .ProjectCard {
+        margin: 15px;
+        width: 15%;
+        height: 50%;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+        cursor: pointer;
+    }
+    
+    .ProjCardImg {
+        width: 100%;
+        height: 100%;
+    }
+}

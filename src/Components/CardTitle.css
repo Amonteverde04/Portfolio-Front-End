@@ -1,0 +1,54 @@
+.CardTitleContainer {
+    position: relative;
+    display: flex;
+    flex: auto;
+    max-width: 95%;
+    left: 1rem;
+    font-size: 22px;
+}
+
+.CardTitle {
+    border-left: 5px solid #808080;
+    padding-left: .5rem;
+}
+
+#white {
+    color: white;
+}
+
+#blue {
+    color: #058ED9;
+}
+
+@media only screen and (max-width: 375px) {
+    .CardTitleContainer {
+        position: relative;
+        display: flex;
+        flex: auto;
+        max-width: 95%;
+        left: 1rem;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .CardTitleContainer {
+        position: relative;
+        display: flex;
+        flex: auto;
+        max-width: 95%;
+        left: 1rem;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .CardTitleContainer {
+        position: relative;
+        display: flex;
+        flex: auto;
+        max-width: 95%;
+        left: 2rem;
+        font-size: 40px;
+    }
+}
