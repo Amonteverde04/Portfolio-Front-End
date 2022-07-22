@@ -1,6 +1,6 @@
 # My portfolio
 
-The purpose of this repository is to show the front end code of my portfolio. 
+The purpose of this repository is to showcase the front end code of my portfolio. 
 I created this project using React, Node.js, Express JS, and MongoDB. 
 
 ## Accessing the site
