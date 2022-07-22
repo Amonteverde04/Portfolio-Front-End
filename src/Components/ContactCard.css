@@ -19,6 +19,7 @@
     width: 80%;
     border-radius: 15px;
     color: #058ed9;
+    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
     border-style: none;
     cursor: pointer;
@@ -29,6 +30,7 @@
     width: 100%;
     border-radius: 15px;
     color: #058ed9;
+    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
     border-style: none;
     cursor: pointer;
@@ -80,6 +82,7 @@
         width: 80%;
         border-radius: 15px;
         color: #058ed9;
+        background-color: white;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
         border-style: none;
         cursor: pointer;
@@ -90,6 +93,7 @@
         width: 100%;
         border-radius: 15px;
         color: #058ed9;
+        background-color: white;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
         border-style: none;
         cursor: pointer;
@@ -122,6 +126,7 @@
         width: 80%;
         border-radius: 15px;
         color: #058ed9;
+        background-color: white;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
         border-style: none;
         cursor: pointer;
@@ -132,6 +137,7 @@
         width: 100%;
         border-radius: 15px;
         color: #058ed9;
+        background-color: white;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
         border-style: none;
         cursor: pointer;
