@@ -16,7 +16,7 @@ function PopUp(props) {
             <button onClick={closePopUp} className='CloseButton'>Close feedback pop up</button>
             <div className='PopUp'>
               <h1 className='FeedbackTitle'>Send me some feedback!</h1>
-              <form className='FeedbackForm' method='POST' action='/post-feedback'>
+              <form className='FeedbackForm' method='POST' action='https://heroku-backend-portfolio.herokuapp.com/post-feedback'>
                 <div className='FormStuff'>
                     <label id="formLabel">Name:</label><br></br>
                     <input id='formInputBox' type='text' name='Name' required></input><br></br>
