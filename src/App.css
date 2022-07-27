@@ -26,11 +26,6 @@
   color: #058ED9;
   overflow: auto;
   overflow: hidden;
-  background-image: url('./Assets/SVG\ Background\ Phone.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  animation: splashZoom 1s;
 }
 
 @keyframes splashZoom {
