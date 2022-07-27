@@ -25,7 +25,7 @@ function ContactCard(props){
     return(
         <div className='ContactButtonsContainer'>
             <form id="EmailForm" action="mailto:amonteverde98@gmail.com" method="post" enctype="text/plain">
-                <button id='Email'><input type="submit" value="Click to email me!"/></button>
+                <button id='Email'><input type="submit" id='emailInput' value="Click to email me!"/></button>
             </form>
             <button id='Phone' onClick={changePhone}>{Phone}</button>
             <button id='Resume' onClick={showResume}>{Resume}</button>
