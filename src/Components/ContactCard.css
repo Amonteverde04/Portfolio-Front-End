@@ -44,10 +44,12 @@
     border-style: none;
 }
 
+/*
 #Email:active, #Phone:active, #Resume:active {
     background-color: #058ed9;
     color: white;
 }
+*/
 
 #Email:hover, #Phone:hover, #Resume:hover {
     animation: shake 1s;
