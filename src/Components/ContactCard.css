@@ -60,6 +60,10 @@
     font-weight: 400;
 }
 
+#emailInput:active {
+    color: white;
+}
+
 @keyframes shake {
     0% { transform: translate(0px, 0px) rotate(0deg); }
     30% { transform: translate(1px, 1px) rotate(1deg); }
