@@ -40,6 +40,10 @@
     width: 80%;
 }
 
+#EmailForm:active {
+    color: white;
+}
+
 #Email:focus, #Phone:focus, #Resume:focus {
     border-style: none;
 }
@@ -58,10 +62,6 @@
     background: none;
     border: none;
     font-weight: 400;
-}
-
-#emailInput:active {
-    color: white;
 }
 
 @keyframes shake {
