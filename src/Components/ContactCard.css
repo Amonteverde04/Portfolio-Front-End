@@ -57,7 +57,7 @@
     color: #058ed9;
     background: none;
     border: none;
-    font-weight: lighter;
+    font-weight: 400;
 }
 
 @keyframes shake {
