@@ -26,6 +26,9 @@
   color: #058ED9;
   overflow: auto;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes splashZoom {
@@ -101,7 +104,7 @@ Footer {
     background-image: url('./Assets/SVG\ Background.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     animation: splashZoom 1s;
 }
 
@@ -112,7 +115,7 @@ Footer {
     }
     100% {
       opacity: 1;
-      background-size: 100%;
+      background-size: 97.5%;
     }
   }
   
@@ -181,6 +184,7 @@ Footer {
     background-image: url('./Assets/SVG\ Background\ IPAD.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     animation: splashZoom 1s;
 }
 
@@ -191,7 +195,7 @@ Footer {
     }
     100% {
       opacity: 1;
-      background-size: 100%;
+      background-size: 77%;
   }
   }
   
