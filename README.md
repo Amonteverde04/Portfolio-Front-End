@@ -3,6 +3,7 @@
 The purpose of this repository is to showcase the front end code of my portfolio. 
 
 - Library: React
+- Styling: CSS
 - Deployment: Netlify
 
 ## Accessing the site
