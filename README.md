@@ -1,4 +1,4 @@
-# My portfolio
+# My Portfolio
 
 The purpose of this repository is to showcase the front end code of my portfolio. 
 
